@@ -1,0 +1,23 @@
+.content {
+  display: grid;
+  grid-template:
+    "blogMain writer" 400px
+    "blogMain tocBox   "
+    / 1fr 240px;
+  .blogMain {
+    margin: 40px 3%;
+    grid-area: blogMain;
+  }
+  .writer {
+    margin: 40px 3%;
+    grid-area: writer;
+  }
+  .tocBox {
+    margin: 40px 3%;
+    grid-area: tocBox;
+    .toc {
+      top: 40px;
+      position: sticky;
+    }
+  }
+}

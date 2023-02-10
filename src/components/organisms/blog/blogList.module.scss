@@ -1,0 +1,11 @@
+.blogList {
+  .item {
+    display: flex;
+    align-items: center;
+    .image {
+      padding: 20px;
+      width: 240px;
+      height: 160px;
+    }
+  }
+}

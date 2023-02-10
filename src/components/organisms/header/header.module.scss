@@ -1,0 +1,13 @@
+.header {
+  height: 100%;
+  .content {
+    max-width: 1048px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    padding-right: 5%;
+  }
+  .tabs {
+    width: 360px;
+  }
+}

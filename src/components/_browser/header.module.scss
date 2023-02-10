@@ -1,0 +1,50 @@
+.browserHeader1 {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #45316e;
+  border-radius: 8px 8px 0 0;
+  .buttons {
+    margin: 0 8px;
+    div {
+      display: inline-block;
+      margin: 4px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      &.closeButton {
+        background-color: red;
+      }
+      &.minimizeButton {
+        background-color: yellow;
+      }
+      &.maximizeButton {
+        background-color: green;
+      }
+    }
+  }
+  .tab {
+    width: 100px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    .tabActive {
+      position: absolute;
+      height: 90%;
+      width: 100%;
+      top: 10%;
+      left: 0;
+      background-color: #5f4a8b;
+      border-radius: 8px 8px 0 0;
+    }
+    .tabName {
+      z-index: 10;
+      color: white;
+    }
+  }
+}
+.browserHeader2 {
+  height: 40px;
+  background-color: #5f4a8b;
+}
