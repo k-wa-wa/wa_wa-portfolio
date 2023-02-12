@@ -6,7 +6,7 @@ import * as styles from "./logoText.module.scss";
 const LogoText = () => {
   return (
     <Link to="/" className={styles.logoText}>
-      Co-Wave
+      Ko-Wave
     </Link>
   );
 };
